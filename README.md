@@ -1,75 +1,76 @@
-Explore Bharat - A Responsive Travel Website Clone
-This project is a front-end clone of the Explore Bharat travel website. It's designed to showcase skills in HTML, CSS, and Bootstrap by recreating a modern, visually appealing, and fully responsive travel and tourism website. The clone includes multiple pages, interactive elements, and a clean layout.
+🌏 Explore Bharat - A Responsive Travel Website Clone
 
-Live Demo
-(Note: This is a conceptual link. You would replace '#' with your actual live URL after hosting the project on platforms like GitHub Pages, Netlify, or Vercel.)
+A front-end clone of the Explore Bharat travel website, built to showcase HTML, CSS, Bootstrap, and Swiper.js skills. This project recreates a modern, visually appealing, and fully responsive travel and tourism website with multiple pages and interactive UI components.
 
-🔗 View Live Demo
+🔗 Live Demo
+ (Replace # with your hosted project link, e.g., GitHub Pages, Netlify, or Vercel)
 
-📸 Screenshots
-Here’s a glimpse of the different pages of the website clone.
-
-Home Page	Top Hotels Page
-Testimonials Page	Blogs Page
-Contact Us Page	
-
-Export to Sheets
+🏠 Home Page
+🏨 Top Hotels Page
+💬 Testimonials Page
+📰 Blogs Page
+📞 Contact Us Page
 ✨ Features
-Fully Responsive Design: Adapts seamlessly to desktops, tablets, and mobile devices using Bootstrap's grid system and custom media queries.
+✅ Fully Responsive Design – Works seamlessly on desktops, tablets, and mobiles using Bootstrap’s grid system + custom media queries.
 
-Multi-Page Layout: The project includes several key pages:
+✅ Multi-Page Layout
 
-Home (index.html)
+index.html – Home
+our-top-hotels.html – Our Top Hotels
+testimonials.html – Testimonials
+blog.html – Blogs (📌 fixed typo from bolg.html)
+contact.html – Contact Us
 
-Our Top Hotels (our-top-hotels.html)
+✅ Interactive UI Elements
 
-Testimonials (testimonials.html)
+Hover effects on cards & buttons
+Swiper.js Carousel on the homepage for “India Unveiled” attractions
+Smooth responsive navigation bar
 
-Blogs (bolg.html)
+✅ Modern Styling
 
-Contact Us (contact.html)
+Gradient overlays, box shadows, decorative borders
+Custom fonts & golden accent colors
+Background textures for an authentic travel aesthetic
 
-Interactive UI Elements: Features engaging hover effects on cards and buttons, a dynamic Swiper.js carousel for showcasing attractions, and a clean, user-friendly navigation bar.
+✅ Swiper.js Integration
 
-Modern Styling: Utilizes custom CSS to replicate the elegant and vibrant aesthetic of the original website, including gradient overlays, box shadows, and custom fonts.
+Touch-enabled & responsive carousel
+Custom breakpoints for different screen sizes
+Navigation arrows styled with golden theme
 
-Bootstrap 5 Integration: Leverages Bootstrap for responsive layout, components like the navbar and grid system, and utility classes.
+🛠️ Tech Stack
 
-🛠️ Technologies Used
-HTML5: For the structure and content of the web pages.
+HTML5 – Semantic structure
 
-CSS3: For all custom styling, animations, and responsive design.
-
-Bootstrap 5.3.0: As the core CSS framework for layout and components.
-
-Swiper.js: For the touch-enabled, interactive slider on the homepage.
-
-Font Awesome: Used for icons on the contact and blog pages.
+CSS3 – Custom styling, animations, responsive design
+Bootstrap 5.3.0 – Grid system, navbar, utilities
+Swiper.js v11 – Interactive slider/carousel
+Font Awesome – Icons (contact & blogs)
 
 📂 Project Structure
-The project is organized with clear separation of files for easy navigation and maintenance.
-
 /explore-bharat-clone
-├── index.html              # Main landing page
-├── our-top-hotels.html     # Hotels page
-├── testimonials.html       # Customer testimonials page
-├── bolg.html               # Blog list page (note: typo in filename)
-├── contact.html            # Contact form and information page
-├── style.css               # Main stylesheet for all pages
-└── imghb1.jpg              # Hero image for the homepage
+├── index.html              # Home (Landing Page)
+├── our-top-hotels.html     # Hotels Page
+├── testimonials.html       # Customer Testimonials
+├── blog.html               # Blog List Page
+├── contact.html            # Contact Form
+├── style.css               # Main Stylesheet
+└── imghb1.jpg              # Hero Image (Homepage)
+
 🚀 Getting Started
-To run this project locally, follow these simple steps:
 
-Clone the repository:
-
-Bash
+Clone the repository
 
 git clone https://github.com/your-github-username/explore-bharat-clone.git
-Navigate to the project directory:
-
-Bash
-
+Navigate into project folder
 cd explore-bharat-clone
-Open the index.html file in your browser:
-You can do this by double-clicking the file or right-clicking and selecting "Open with" your preferred web browser.
+Open in browser
+Double-click index.html, or
+Right-click → “Open with” your preferred browser
 
+📌 Notes
+
+This is a front-end only clone for learning/demo purposes.
+Images are referenced directly from the official Explore Bharat website.
+You can replace them with your own assets for a fully independent project.
