@@ -1,0 +1,643 @@
+ /* ===== Navbar Styling ===== */
+
+ * {
+     padding: 0%;
+     margin: 0%;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: 'Poppins', sans-serif;
+     width: 100%;
+     height: auto;
+     background: url('http://explorebharat.com/img/floral-bg.webp') repeat;
+     background-size: contain;
+ }
+
+ .navbar {
+     background: rgba(0, 0, 0, 0.4);
+     padding: 15px 0;
+     position: absolute;
+     width: 100%;
+     top: 0;
+     z-index: 1000;
+ }
+
+ .navbar-brand {
+     font-size: 28px;
+     font-weight: bold;
+     color: white;
+ }
+
+ .navbar-nav .nav-link {
+     color: white !important;
+     font-size: 1.2rem;
+     padding: 10px 15px;
+ }
+
+ .navbar-nav .nav-link:hover {
+     color: #ffeaa7 !important;
+ }
+
+ .navbar-toggler {
+     border: 2px solid white;
+ }
+
+
+ .logo:hover {
+     color: #ffeaa7;
+ }
+
+
+ .title {
+     font-family: brodies;
+     font-size: 2.5;
+     line-height: 1.5;
+     font-weight: 400;
+ }
+
+ /* ===== Hero Section ===== */
+ .hero-container {
+     width: 100%;
+     height: 100vh;
+     position: relative;
+     background: url('imghb1.jpg') no-repeat center center/cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     color: white;
+ }
+
+ /* ===== Overlay Effect ===== */
+ .hero-container::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0));
+ }
+
+ /* ===== Fog Effect ===== */
+ .fog-effect {
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     height: 120px;
+
+ }
+
+ /* ===== Hero Text Styling ===== */
+ .hero-content {
+     position: relative;
+     z-index: 2;
+     max-width: 700px;
+     margin: auto;
+ }
+
+ .hero-content h1 {
+     font-size: 3rem;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+
+ .hero-content .big-text {
+     font-size: 6rem;
+     font-weight: bold;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     -webkit-text-stroke: 2px white;
+     color: transparent;
+ }
+
+ .hero-content p {
+     font-size: 1.2rem;
+     margin-top: 15px;
+ }
+
+
+
+ /* Text Styling */
+ .section-title {
+     font-size: 2.5rem;
+     font-weight: bold;
+     color: #000;
+ }
+
+ .text-gold {
+     color: #b68d40;
+     font-weight: bold;
+ }
+
+ /* Info Box Styling */
+ .info-box {
+     background: #fff9f0;
+     border-radius: 10px;
+     border: 2px solid #e8d3b9;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ }
+
+ /* Image Box */
+ .map-box {
+     padding: 15px;
+     border-radius: 10px;
+     border: 2px solid #e8d3b9;
+     background: #fff;
+     display: inline-block;
+ }
+
+ /* Bottom Text Styling */
+ .highlighted-text {
+     font-size: 2rem;
+     font-weight: bold;
+ }
+
+
+ /* 🌍 Travel Grid Styling */
+ .travel-card {
+     position: relative;
+     overflow: hidden;
+     border-radius: 12px;
+     cursor: pointer;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+     /* Soft Shadow */
+     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+ }
+
+ .travel-card:hover {
+     transform: scale(1.05);
+     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+ }
+
+ .travel-card img {
+     width: 100%;
+     height: auto;
+     object-fit: cover;
+     border-radius: 12px;
+     transition: transform 0.3s ease;
+ }
+
+ .travel-card:hover img {
+     transform: scale(1.1);
+ }
+
+ /* 🌟 Gradient Overlay */
+ .travel-card::after {
+     content: "";
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 40%;
+     background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+ }
+
+ /* 📝 Card Text */
+ .travel-text {
+     position: absolute;
+     bottom: 15px;
+     left: 15px;
+     color: white;
+     font-size: 1.1rem;
+     font-weight: bold;
+     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+     z-index: 2;
+ }
+
+ .view-more-btn {
+     display: inline-block;
+     padding: 10px 25px;
+     font-size: 1rem;
+     font-weight: 500;
+     color: #b68d40;
+     text-decoration: none;
+     border: 2px solid #b68d40;
+     border-radius: 30px;
+     transition: all 0.3s ease-in-out;
+ }
+
+ /* 🟡 Hover Effect */
+ .view-more-btn:hover {
+     background: #b68d40;
+     color: white;
+     text-decoration: none;
+ }
+
+ /* 🟡 Title Styling */
+
+ .silder {
+     max-width: 90%;
+ }
+
+ .section-title {
+     text-align: center;
+     font-size: 2.5rem;
+     font-weight: bold;
+     font-family: 'Playfair Display', serif;
+ }
+
+ .section-title span {
+     color: black;
+ }
+
+ .section-title .gold {
+     color: #b68d40;
+     font-family: 'Great Vibes', cursive;
+ }
+
+ /* 🟡 Card Design */
+ .unveiled-card {
+     text-align: start;
+     border-radius: 10px;
+     background: white;
+     padding: 10px;
+     transition: transform 0.3s, box-shadow 0.3s;
+ }
+
+ .unveiled-card:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+ }
+
+ .unveiled-card img {
+     width: 100%;
+     height: 250px;
+     border-radius: 10px;
+     transition: transform 0.3s;
+ }
+
+ .unveiled-card:hover img {
+     transform: scale(1.05);
+ }
+
+ .unveiled-card h4 {
+     margin-top: 10px;
+     font-size: 1.3rem;
+     font-weight: bold;
+ }
+
+ /* 🟡 Swiper Navigation Buttons */
+ .swiper-button-prev,
+ .swiper-button-next {
+     color: #b68d40;
+     background: white;
+     width: 45px;
+     height: 45px;
+     border-radius: 50%;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transition: all 0.3s ease-in-out;
+     border: 2px solid #b68d40;
+ }
+
+ .swiper-button-prev:hover,
+ .swiper-button-next:hover {
+     background: #b68d40;
+     color: white;
+ }
+
+ /* Ensuring Navigation Buttons are Proper */
+ .swiper-button-prev::after,
+ .swiper-button-next::after {
+     font-size: 16px;
+     font-weight: bold;
+ }
+
+
+ /* 🌍 Explore Bharat CTA Styling */
+ .explore-bharat {
+     display: flex;
+     justify-content: center;
+     padding: 50px 0;
+ }
+
+ .cta-container {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background: url(https://www.explorebharat.com/img/cnct.webp) no-repeat center center;
+     background-size: cover;
+     border-radius: 30px;
+     padding-left: 50px;
+     max-width: 90%;
+     min-height: 300px;
+     color: white;
+     position: relative;
+ }
+
+ /* Dark Overlay for Better Readability */
+ .cta-container::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: #00000066;
+     border-radius: 30px;
+ }
+
+
+
+ .cta-content {
+     max-width: 50%;
+     position: relative;
+     z-index: 2;
+ }
+
+ .cta-content h2 {
+     font-size: 2.2rem;
+     font-weight: bold;
+     margin-bottom: 10px;
+     font-family: 'Georgia', serif;
+ }
+
+ .cta-content h2 span {
+     color: #b68d40;
+ }
+
+ .cta-content p {
+     font-size: 1rem;
+     margin-bottom: 20px;
+ }
+
+ .cta-buttons {
+     display: flex;
+     align-items: center;
+     gap: 15px;
+ }
+
+ .cta-btn {
+     background: #b68d40;
+     color: white;
+     padding: 12px 25px;
+     border-radius: 30px;
+     text-decoration: none;
+     font-size: 1rem;
+     font-weight: bold;
+     transition: background 0.3s ease;
+ }
+
+ .cta-btn:hover {
+     background: #9c7a35;
+ }
+
+ .cta-image {
+     max-width: 45%;
+     margin-top: 0px;
+     /* Fixed */
+     position: relative;
+     z-index: 2;
+ }
+
+ .cta-image img {
+     width: 100%;
+     height: auto;
+     border-radius: 15px;
+     margin-top: -100px;
+ }
+
+
+ /* 🏛️ Decorative Borders */
+ .border-top,
+ .border-bottom {
+     height: 30px;
+     /* Reduced height for minimal gap */
+     background: url('https://www.explorebharat.com/img/border.svg') repeat-x center;
+     width: 100%;
+     position: relative;
+     z-index: 10;
+ }
+
+ /* 🏛️ Incredible Bharat Section */
+ .incredible-bharat {
+     font-family: 'Georgia', serif;
+     position: relative;
+     background: url('https://www.explorebharat.com/img/incredible.webp') no-repeat center center;
+     background-size: cover;
+     color: white;
+     padding: 80px 10% 60px 10%;
+     /* Adjusted padding to reduce gap */
+     min-height: 450px;
+     display: flex;
+     align-items: center;
+ }
+
+ /* 📜 Text Content */
+ .text-area {
+     max-width: 40%;
+     padding: 25px;
+     border-radius: 8px;
+ }
+
+ .text-area h2 {
+     font-size: 2.8rem;
+     font-weight: bold;
+ }
+
+ .text-area h2 span {
+     color: #b68d40;
+     /* Golden Color */
+ }
+
+ .text-area p {
+     font-size: 1.1rem;
+     margin-top: 12px;
+     line-height: 1.6;
+ }
+
+
+ /* Section Padding */
+ .section_one {
+     padding: 60px 0;
+ }
+
+ /* Icon Line Styling */
+ .icon-line {
+     width: 40px;
+     height: 3px;
+     margin-bottom: 15px;
+ }
+
+ .icon-orange {
+     background-color: #E55325;
+ }
+
+ .icon-green {
+     background-color: #4CAF50;
+ }
+
+ /* Footer Styling */
+ .footer {
+     background-color: black;
+     color: white;
+     padding: 15px 0;
+     font-size: 14px;
+ }
+
+ /* Footer Image (EaseMyTrip Logo) */
+ .footer_img {
+     max-width: 120px;
+     /* Adjusted for better responsiveness */
+     height: auto;
+ }
+
+ /* Footer Icons (Right Side) */
+ .footer-icons {
+     max-width: 500px;
+     /* Adjusted for smaller screens */
+     height: auto;
+ }
+
+ /* Responsive Fixes */
+ @media (max-width: 992px) {
+
+     .text-md-start,
+     .text-md-end {
+         text-align: center !important;
+         /* Center align content on smaller screens */
+     }
+
+     .footer_img {
+         max-width: 100px;
+         /* Smaller logo on tablets */
+     }
+
+     .footer-icons {
+         max-width: 350px;
+         /* Adjust icons for tablets */
+     }
+ }
+
+ @media (max-width: 768px) {
+     .text-center-mobile {
+         text-align: center;
+     }
+
+     .footer_img {
+         max-width: 80px;
+         /* Reduce logo size for mobile */
+     }
+
+     .footer-icons {
+         max-width: 250px;
+         /* Adjust footer icons for mobile */
+     }
+ }
+
+
+
+ /* ===== Mobile Responsive Fixes ===== */
+ @media (max-width: 992px) {
+     .hero-container {
+         height: 80vh;
+     }
+
+     .hero-content h1 {
+         font-size: 2rem;
+     }
+
+     .hero-content .big-text {
+         font-size: 3rem;
+     }
+
+     .section-title {
+         font-size: 1.8rem;
+     }
+
+     .cta-container {
+         text-align: center;
+         padding: 30px;
+         /* Adjusted */
+     }
+
+     .cta-content {
+         max-width: 100%;
+         text-align: center;
+     }
+
+     .cta-buttons {
+         justify-content: center;
+     }
+
+     .cta-image {
+         max-width: 80%;
+         margin-top: 20px;
+     }
+
+     .text-area {
+         max-width: 55%;
+     }
+
+     .text-area h2 {
+         font-size: 2.2rem;
+     }
+ }
+
+ @media (max-width: 768px) {
+     .navbar-nav {
+         text-align: center;
+     }
+
+     .hero-content h1 {
+         font-size: 1.8rem;
+     }
+
+     .hero-content .big-text {
+         font-size: 2.5rem;
+     }
+
+     .cta-container {
+         flex-direction: column;
+         text-align: center;
+         padding: 20px;
+     }
+
+     .cta-content {
+         max-width: 100%;
+         text-align: center;
+     }
+
+     .cta-buttons {
+         flex-direction: column;
+         /* Buttons in Column */
+         gap: 10px;
+     }
+
+     .cta-image {
+         max-width: 100%;
+         margin-top: 20px;
+     }
+
+
+     .incredible-bharat {
+         padding: 40px 5%;
+         /* Reduced padding */
+         text-align: center;
+         min-height: 350px;
+     }
+
+     .text-area {
+         max-width: 85%;
+         padding: 18px;
+     }
+
+     .text-area h2 {
+         font-size: 2rem;
+     }
+
+     .text-area p {
+         font-size: 1rem;
+     }
+
+     .border-top,
+     .border-bottom {
+         height: 20px;
+         /* Even smaller border height for mobile */
+     }
+
+ }
